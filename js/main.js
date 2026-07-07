@@ -25,7 +25,7 @@ const projectsData = [
     {
         title: "CNFL - Shanghai Titans",
         description: "Returned to China during summer to compete in CNFL, playing for the Shanghai Titans. Bridging sports cultures between Ireland and China.",
-        image: "images/project3.jpg",
+        image: "americanfootball.jpg",
         tags: ["CNFL", "Shanghai Titans", "Summer"],
         category: "football",
         links: [
