@@ -37,7 +37,7 @@ const projectsData = [
         description: "12 years of classical piano training, developing discipline, musicality, and performance confidence. Participated in multiple recitals and competitions.",
         image: "images/piano.jpg",
         tags: ["Piano", "12 Years", "Classical Music"],
-        category: "music",
+        category: "Piano",
         links: [
             { text: "Performance Video", url: "#" }
         ]
@@ -47,7 +47,7 @@ const projectsData = [
         description: "7 years of competitive golf, mastering precision, patience, and mental resilience. Represented school in regional tournaments.",
         image: "images/golf.jpg",
         tags: ["Golf", "7 Years", "Tournaments"],
-        category: "sports",
+        category: "Golf",
         links: [
             { text: "Tournament Records", url: "#" }
         ]
