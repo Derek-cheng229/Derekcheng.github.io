@@ -5,7 +5,7 @@ const projectsData = [
     {
         title: "Rugby Team Captain",
         description: "Captain of my school's Rugby team. Playing as Hooker for 2 years, leading training sessions and match strategies.",
-        image: "images/project1.jpg",
+        image: "rugby.jpg",
         tags: ["Hooker", "Captain", "2 Years"],
         category: "rugby",
         links: [
