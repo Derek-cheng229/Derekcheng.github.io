@@ -43,6 +43,16 @@ const projectsData = [
         ]
     }
 ];
+{
+    title: "Piano - 12 Years of Dedication",
+    description: "12 years of classical piano training, developing discipline, musicality, and performance confidence. Participated in multiple recitals and competitions.",
+    image: "images/piano.jpg",
+    tags: ["Piano", "12 Years", "Classical Music"],
+    category: "music",
+    links: [
+        { text: "Performance Video", url: "#" }
+    ]
+},
 
 // ========================================
 // 2. 滚动动画观察器（提前定义，避免报错）
@@ -64,6 +74,16 @@ function observeRevealElements() {
         revealObserver.observe(el);
     });
 }
+{
+    title: "Golf - 7 Years on the Course",
+    description: "7 years of competitive golf, mastering precision, patience, and mental resilience. Represented school in regional tournaments.",
+    image: "images/golf.jpg",
+    tags: ["Golf", "7 Years", "Tournaments"],
+    category: "sports",
+    links: [
+        { text: "Tournament Records", url: "#" }
+    ]
+},
 
 // ========================================
 // 3. 动态渲染项目卡片
