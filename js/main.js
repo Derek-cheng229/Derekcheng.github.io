@@ -1,5 +1,5 @@
 // ========================================
-// 1. 项目数据（直接在这里修改你的项目信息）
+// 1. 项目数据
 // ========================================
 const projectsData = [
     {
@@ -37,7 +37,7 @@ const projectsData = [
         description: "12 years of classical piano training, developing discipline, musicality, and performance confidence. Participated in multiple recitals and competitions.",
         image: "images/piano.jpg",
         tags: ["Piano", "12 Years", "Classical Music"],
-        category: "Piano",
+        category: "music",
         links: [
             { text: "Performance Video", url: "#" }
         ]
@@ -47,7 +47,7 @@ const projectsData = [
         description: "7 years of competitive golf, mastering precision, patience, and mental resilience. Represented school in regional tournaments.",
         image: "images/golf.jpg",
         tags: ["Golf", "7 Years", "Tournaments"],
-        category: "Golf",
+        category: "sports",
         links: [
             { text: "Tournament Records", url: "#" }
         ]
@@ -55,7 +55,7 @@ const projectsData = [
 ];
 
 // ========================================
-// 2. 滚动动画观察器（提前定义，避免报错）
+// 2. 滚动动画观察器
 // ========================================
 var revealObserver = new IntersectionObserver(function(entries) {
     entries.forEach(function(entry) {
@@ -74,16 +74,6 @@ function observeRevealElements() {
         revealObserver.observe(el);
     });
 }
-{
-    title: "Golf - 7 Years on the Course",
-    description: "7 years of competitive golf, mastering precision, patience, and mental resilience. Represented school in regional tournaments.",
-    image: "images/golf.jpg",
-    tags: ["Golf", "7 Years", "Tournaments"],
-    category: "sports",
-    links: [
-        { text: "Tournament Records", url: "#" }
-    ]
-},
 
 // ========================================
 // 3. 动态渲染项目卡片
@@ -92,7 +82,6 @@ function renderProjects(filter) {
     filter = filter || 'all';
     var grid = document.getElementById('projects-grid');
 
-    // 安全检查：如果找不到元素就退出
     if (!grid) {
         console.error('错误：找不到 id="projects-grid" 的元素');
         return;
@@ -137,11 +126,7 @@ function renderProjects(filter) {
 }
 
 // ========================================
-// 4. 页面加载时立即渲染项目
-// ========================================
-renderProjects('all');
-// ========================================
-// 5. 导航栏滚动效果 + 当前页面高亮
+// 4. 导航栏滚动效果
 // ========================================
 var navbar = document.getElementById('navbar');
 var navLinks = document.querySelectorAll('.nav-links a');
@@ -171,7 +156,7 @@ window.addEventListener('scroll', function() {
 });
 
 // ========================================
-// 6. 手机端菜单开关
+// 5. 手机端菜单
 // ========================================
 var mobileToggle = document.getElementById('mobile-toggle');
 var navLinksList = document.getElementById('nav-links');
@@ -187,7 +172,7 @@ navLinks.forEach(function(link) {
 });
 
 // ========================================
-// 7. 项目筛选功能（这就是你缺失的部分！）
+// 6. 项目筛选功能
 // ========================================
 var filterButtons = document.querySelectorAll('.filter-btn');
 var filterContainer = document.getElementById('project-filters');
@@ -203,7 +188,7 @@ filterContainer.addEventListener('click', function(e) {
 });
 
 // ========================================
-// 8. 联系表单提交
+// 7. 联系表单
 // ========================================
 var contactForm = document.getElementById('contact-form');
 var formStatus = document.getElementById('form-status');
@@ -226,12 +211,12 @@ contactForm.addEventListener('submit', function(e) {
 });
 
 // ========================================
-// 9. 自动填充当前年份
+// 8. 自动年份
 // ========================================
 document.getElementById('year').textContent = new Date().getFullYear();
 
 // ========================================
-// 10. 数字计数器动画
+// 9. 数字计数器
 // ========================================
 var statNumbers = document.querySelectorAll('.stat-number');
 var statObserver = new IntersectionObserver(function(entries) {
@@ -265,7 +250,7 @@ function animateCounter(el) {
 }
 
 // ========================================
-// 11. 给各板块加滚动动画 + 启动计数器
+// 10. 初始化
 // ========================================
 document.querySelectorAll('.section').forEach(function(el) {
     el.classList.add('reveal');
@@ -276,3 +261,5 @@ observeRevealElements();
 statNumbers.forEach(function(el) {
     statObserver.observe(el);
 });
+
+renderProjects('all');
