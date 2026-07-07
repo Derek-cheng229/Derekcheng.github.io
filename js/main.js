@@ -3,34 +3,43 @@
 // ========================================
 const projectsData = [
     {
-        title: "Plant Species Classifier",
-        description: "A machine learning model using TensorFlow that classifies 50+ plant species from photos with 92% accuracy.",
+        title: "Rugby Team Captain",
+        description: "Captain of my school's Rugby team. Playing as Hooker for 2 years, leading training sessions and match strategies.",
         image: "images/project1.jpg",
-        tags: ["Python", "TensorFlow", "Computer Vision"],
-        category: "ai",
+        tags: ["Hooker", "Captain", "2 Years"],
+        category: "rugby",
         links: [
-            { text: "GitHub", url: "https://github.com/yourusername/plant-classifier" },
-            { text: "Demo", url: "#" }
+            { text: "Team Info", url: "#" }
         ]
     },
     {
-        title: "StudyTracker App",
-        description: "A cross-platform mobile app built with React Native that helps students manage assignments and deadlines.",
+        title: "American Football - Ireland",
+        description: "Captain of the American Football team in Ireland. Playing Defensive Line for 4 years, combining strength and tactical awareness.",
         image: "images/project2.jpg",
-        tags: ["React Native", "Firebase"],
-        category: "web",
+        tags: ["DL", "Captain", "4 Years"],
+        category: "football",
         links: [
-            { text: "GitHub", url: "https://github.com/yourusername/study-tracker" }
+            { text: "Team Info", url: "#" }
         ]
     },
     {
-        title: "Air Quality Research",
-        description: "Independent research analyzing PM2.5 data across 20 cities, identifying correlations with traffic patterns.",
+        title: "CNFL - Shanghai Titans",
+        description: "Returned to China during summer to compete in CNFL, playing for the Shanghai Titans. Bridging sports cultures between Ireland and China.",
         image: "images/project3.jpg",
-        tags: ["Data Analysis", "Python", "Research"],
-        category: "research",
+        tags: ["CNFL", "Shanghai Titans", "Summer"],
+        category: "football",
         links: [
-            { text: "Paper", url: "#" }
+            { text: "CNFL Info", url: "#" }
+        ]
+    },
+    {
+        title: "Leadership Philosophy",
+        description: "Developed a leadership style combining motivational and analytical approaches, applied across two sports teams and daily life.",
+        image: "images/project4.jpg",
+        tags: ["Motivational", "Analytical", "Captain"],
+        category: "leadership",
+        links: [
+            { text: "Read More", url: "#" }
         ]
     }
 ];
