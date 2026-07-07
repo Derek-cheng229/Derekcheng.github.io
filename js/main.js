@@ -15,7 +15,7 @@ const projectsData = [
     {
         title: "American Football - Ireland",
         description: "Captain of the American Football team in Ireland. Playing Defensive Line for 4 years, combining strength and tactical awareness.",
-        image: "images/project2.jpg",
+        image: "0c60ca5a1d1d0c5471bba3fa46e5371b.jpg",
         tags: ["DL", "Captain", "4 Years"],
         category: "football",
         links: [
