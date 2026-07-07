@@ -45,7 +45,7 @@ const projectsData = [
     {
         title: "Golf - 7 Years on the Course",
         description: "7 years of competitive golf, mastering precision, patience, and mental resilience. Represented school in regional tournaments.",
-        image: "images/golf.jpg",
+        image: "aede660291804ab6e5d014c35e8650ec.jpg",
         tags: ["Golf", "7 Years", "Tournaments"],
         category: "golf",
         links: [
