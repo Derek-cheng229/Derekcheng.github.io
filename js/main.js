@@ -9,7 +9,7 @@ const projectsData = [
         tags: ["Hooker", "Captain", "2 Years"],
         category: "rugby",
         links: [
-            { text: "Team Info", url: "#" }
+            { text: "Team Info", url: "https://v.douyin.com/bvuGjGqoTwg/ " }
         ]
     },
     {
