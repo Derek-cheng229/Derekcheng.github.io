@@ -9,7 +9,7 @@ const projectsData = [
         tags: ["Hooker", "Captain", "2 Years"],
         category: "rugby",
         links: [
-            { text: "Team Info", url: "js/30a056cc6a0195390e89b05c925b7eb3.mp4 " }
+            { text: "Game Video", url: "js/30a056cc6a0195390e89b05c925b7eb3.mp4 " }
         ]
     },
     {
@@ -19,7 +19,7 @@ const projectsData = [
         tags: ["DL", "Captain", "4 Years"],
         category: "football",
         links: [
-            { text: "Team Info", url: "js/b2a62e65a752e4c98e22c0eb55adfcdd.mp4" }
+            { text: "Game Video", url: "js/b2a62e65a752e4c98e22c0eb55adfcdd.mp4" }
         ]
     },
     {
