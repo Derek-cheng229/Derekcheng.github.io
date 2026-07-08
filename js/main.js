@@ -35,7 +35,7 @@ const projectsData = [
     {
         title: "Piano - 12 Years of Dedication",
         description: "12 years of classical piano training, developing discipline, musicality, and performance confidence. Participated in multiple recitals and competitions.",
-        image: "images/piano.jpg",
+        image: "4765df0893bf2599815b583ffe9d455e.jpg",
         tags: ["Piano", "12 Years", "Classical Music"],
         category: "piano",
         links: [
