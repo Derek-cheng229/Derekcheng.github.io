@@ -27,30 +27,21 @@ const projectsData = [
         description: "Returned to China during summer to compete in CNFL, playing for the Shanghai Titans. Bridging sports cultures between Ireland and China.",
         image: "americanfootball.jpg",
         tags: ["CNFL", "Shanghai Titans", "Summer"],
-        category: "football",
-        links: [
-            { text: "CNFL Info", url: "#" }
-        ]
+        category: "football"
     },
     {
         title: "Piano - 12 Years of Dedication",
         description: "12 years of classical piano training, developing discipline, musicality, and performance confidence. Participated in multiple recitals and competitions.",
         image: "4765df0893bf2599815b583ffe9d455e.jpg",
         tags: ["Piano", "12 Years", "Classical Music"],
-        category: "piano",
-        links: [
-            { text: "Performance Video", url: "#" }
-        ]
+        category: "piano"
     },
     {
         title: "Golf - 7 Years on the Course",
         description: "7 years of competitive golf, mastering precision, patience, and mental resilience. Represented school in regional tournaments.",
         image: "aede660291804ab6e5d014c35e8650ec.jpg",
         tags: ["Golf", "7 Years", "Tournaments"],
-        category: "golf",
-        links: [
-            { text: "Tournament Records", url: "#" }
-        ]
+        category: "golf"
     }
 ];
 
