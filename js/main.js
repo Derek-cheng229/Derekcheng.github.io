@@ -19,7 +19,7 @@ const projectsData = [
         tags: ["DL", "Captain", "4 Years"],
         category: "football",
         links: [
-            { text: "Team Info", url: "#" }
+            { text: "Team Info", url: "js/b2a62e65a752e4c98e22c0eb55adfcdd.mp4" }
         ]
     },
     {
